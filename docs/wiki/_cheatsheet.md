@@ -9,10 +9,10 @@ Timber::render('single.twig', $context);
 ```
 
 ## Blog Info
-* `blog_info('charset')` => `{{ site.charset }}`
-* `blog_info('description')` => `{{ site.description }}`
-* `blog_info('sitename')` => `{{ site.name }}`
-* `blog_info('url')` => `{{ site.url }}`
+* `get_bloginfo('charset')` => `{{ site.charset }}`
+* `get_bloginfo('description')` => `{{ site.description }}`
+* `get_bloginfo('sitename')` => `{{ site.name }}`
+* `get_bloginfo('url')` => `{{ site.url }}`
 
 
 ## Body Class
